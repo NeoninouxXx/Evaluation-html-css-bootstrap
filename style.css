@@ -1,0 +1,21 @@
+/* header */
+
+header{
+    height: 100vh;
+    background-image: url(assets/img/background-header.jpg);
+    background-position: left;
+}
+
+/*navbar*/
+
+.red{
+    color: red;
+}
+
+#top a {
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px !important ;
+}
