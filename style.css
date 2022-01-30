@@ -15,6 +15,14 @@ header{
 
 }
 
+.ss-title{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    animation: apparition;
+    animation-duration: 3s;
+    padding-top: 4%;
+}
+
 .Pre-text{
     color: white;
     font-size: 40px;
@@ -60,3 +68,11 @@ header{
     transition: ease-in 0.2s;
 
 }
+
+/*card*/
+
+.card-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
