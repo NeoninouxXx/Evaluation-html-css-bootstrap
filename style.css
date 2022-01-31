@@ -8,7 +8,7 @@ header{
 .title{
     font-size: 50px;
     color: white;
-    padding-top: 12%;
+    padding-top: 20%;
     font-family: 'Dancing Script', cursive;
     animation: apparition;
     animation-duration: 3s;
@@ -70,6 +70,10 @@ header{
 }
 
 /*card*/
+
+.card-img-top{
+    max-height: 450px;
+}
 
 .card-title {
     font-family: 'Dancing Script', cursive;
