@@ -76,3 +76,6 @@ header{
     font-size: 30px;
 }
 
+.card-text:hover{
+    background-color: rgba(224, 217, 217, 0.281);
+}
