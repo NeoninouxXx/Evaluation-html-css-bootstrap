@@ -40,6 +40,9 @@
                 <a class="nav-link" href="#Apropos">Qui sommes nous?</a>
               </li>
               <li class="nav-item me-5">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item me-5">
                 <a class="nav-link" href="#evenement.html">Evenement!</a>
               </li>
             </ul>
@@ -182,7 +185,30 @@
   </div>
 </section>
 <section id="contact">
-  <p class="ss-title text-dark text-center"><span class="red">N</span>ous<span class="red"> R</span>etrouvé</p>
+  <p class="ss-title text-dark text-center"><span class="red">N</span>ous<span class="red"> C</span>onctatez</p>
+  <div class="container">
+    <form action="#">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Adresse Email:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="technique-tatou" class="form-label">Technique de tatouage désiré:</label>
+        <select id="technique-tatou" class="form-select mb-3" aria-label="Default select example">
+          <option value="1">Le tatouage au bambou</option>
+          <option value="2">Le tatouage maori</option>
+          <option value="3">Le tatouage blacklight</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto text-center py-5">
+        <button type="submit" class="btn btn-danger btn-lg">Envoyé</button> 
+      </div> 
+    </form>
+  </div>
   
 </section>
 
