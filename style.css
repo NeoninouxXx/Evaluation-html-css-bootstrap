@@ -1,9 +1,17 @@
 /* header */
 
-header{
+.header{
     height: 100vh;
     background-image: url(assets/img/background-header.jpg);
     background-position: center;
+}
+
+.header2{
+    background-image: url(assets/img/paris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
 }
 .title{
     font-size: 50px;
@@ -13,6 +21,13 @@ header{
     animation: apparition;
     animation-duration: 3s;
 
+}
+
+.titre{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    animation: apparition;
+    animation-duration: 3s;
 }
 
 .ss-title{
@@ -93,3 +108,11 @@ header{
     box-shadow: 0px 0px 5px red;
 }
 
+/*centrage*/
+
+.centre{
+    display: flex ;
+    flex-direction: row ;
+    align-items: center;
+    
+}
