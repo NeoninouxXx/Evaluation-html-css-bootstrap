@@ -2,7 +2,7 @@
 
 .header{
 height: 100vh;
-background-image: url(/assets/img/background-header.jpg);
+background-image: url(../img/background-header.jpg);
 background-position: center;
 }
 
@@ -39,13 +39,13 @@ padding-top: 4%;
 }
 
 .Pre-text{
-color: white;
-font-size: 40px;
-padding-top: 20px;
-padding-bottom: 20px;
-font-family: 'Dancing Script', cursive;
-animation: apparition;
-animation-duration: 3s;
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    animation: apparition;
+    animation-duration: 3s;
 
 }
 
@@ -62,10 +62,10 @@ animation-duration: 3s;
 }
 @keyframes apparition {
 0%{
-opacity: 0;
+    opacity: 0;
 }
 100%{
-opacity: 1;
+    opacity: 1;
 }
 }
 

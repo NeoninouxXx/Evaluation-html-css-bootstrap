@@ -58,10 +58,10 @@
 
   <section id="Apropos">
     <p class="ss-title text-dark text-center">Qui somme nous <span class="red">?</span></p>
-    <div class="container mt-1">
+    <div class="container-fluid mt-1 bg-dark">
       <div class="row py-4">
         <div class="col-sm-4 d-flex justify-content-center">
-          <div class="card" style="width: 340px;">
+          <div class="card mt-5 mb-5" style="width: 340px;">
             <img src="assets/img/Alain.jpg" class="card-img-top" alt="photo-tatoueur1">
             <div class="card-body text-center">
               <h5 class="card-title"><span class="red">A</span>lain <span class="red">T</span>erieur</h5>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="col-sm-4 d-flex justify-content-center ">
-          <div class="card" style="width: 340px;">
+          <div class="card mt-5 mb-5" style="width: 340px;">
             <img src="assets/img/alex.jpg" class="card-img-top" alt="photo-tatoueur2">
             <div class="card-body text-center">
               <h5 class="card-title"><span class="red">A</span>lex <span class="red">T</span>erieur</h5>
@@ -143,7 +143,7 @@
           </div>
         </div>
         <div class="col-sm-4 d-flex justify-content-center">
-          <div class="card" style="width: 340px;">
+          <div class="card mt-5 mb-5" style="width: 340px;">
             <img src="assets/img/gerard.jpg" class="card-img-top" alt="photo-tatoueur2">
             <div class="card-body text-center">
               <h5 class="card-title"><span class="red">G</span>erard <span class="red">M</span>envuca</h5>
@@ -189,10 +189,11 @@
     <p class="ss-title text-dark text-center"><span class="red">N</span>ous<span class="red"> C</span>onctatez</p>
     <div class="container">
       <form action="#">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Adresse Email:</label>
+        <div class="form-floating mb-3">
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
             required>
+          <label for="exampleFormControlInput1" class="form-label">Adresse Email:</label>
+          
         </div>
         <div class="mb-3">
           <label for="technique-tatou" class="form-label">Technique de tatouage désiré:</label>
@@ -202,9 +203,9 @@
             <option value="3">Le tatouage blacklight</option>
           </select>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 120px"></textarea>
+          <label for="floatingTextarea2">Message:</label>
         </div>
         <div class="d-grid gap-2 col-6 mx-auto text-center py-5">
           <button type="submit" class="btn btn-danger btn-lg">Envoyé</button>
