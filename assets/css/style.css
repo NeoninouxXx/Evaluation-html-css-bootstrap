@@ -1,126 +1,118 @@
 /* header */
 
-.header{
-height: 100vh;
-background-image: url(../img/background-header.jpg);
-background-position: center;
+.header {
+  height: 100vh;
+  background-image: url(../img/background-header.jpg);
+  background-position: center;
 }
 
-.header2{
-background-image: url(assets/img/paris.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-height: 100vh; 
+.header2 {
+  background-image: url(assets/img/paris.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
-.title{
-font-size: 50px;
-color: white;
-padding-top: 20%;
-font-family: 'Dancing Script', cursive;
-animation: apparition;
-animation-duration: 3s;
-
-}
-
-.titre{
-font-size: 50px;
-font-family: 'Dancing Script', cursive;
-animation: apparition;
-animation-duration: 3s;
+.title {
+  font-size: 50px;
+  color: white;
+  padding-top: 23%;
+  font-family: "Dancing Script", cursive;
+  animation: apparition;
+  animation-duration: 3s;
 }
 
-.ss-title{
-font-size: 50px;
-font-family: 'Dancing Script', cursive;
-animation: apparition;
-animation-duration: 3s;
-padding-top: 4%;
+.titre {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  animation: apparition;
+  animation-duration: 3s;
 }
 
-.Pre-text{
-    color: white;
-    font-size: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Dancing Script', cursive;
-    animation: apparition;
-    animation-duration: 3s;
-
+.ss-title {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  animation: apparition;
+  animation-duration: 3s;
+  padding-top: 4%;
 }
 
-.text{
-font-size: 30px;
-font-family: 'Dancing Script', cursive;
-
-
-
+.Pre-text {
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Dancing Script", cursive;
+  animation: apparition;
+  animation-duration: 3s;
 }
-.btn-apparition{
-animation: apparition;
-animation-duration: 3s;
+
+.text {
+  font-size: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.btn-apparition {
+  animation: apparition;
+  animation-duration: 3s;
 }
 @keyframes apparition {
-0%{
+  0% {
     opacity: 0;
-}
-100%{
+  }
+  100% {
     opacity: 1;
-}
+  }
 }
 
 /*navbar*/
 
-.red{
-color: red;
+.red {
+  color: red;
 }
 
 .nav-item a {
-font-size: 30px;
-text-align: center;
-font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
 }
 
-.navbar-brand{
-font-size: 30px !important ;
-font-family: 'Dancing Script', cursive;
+.navbar-brand {
+  font-size: 30px !important ;
+  font-family: "Dancing Script", cursive;
 }
 
-.nav-item a:hover{
-box-shadow: 0px 5px 0px red;
-transition: ease-in 0.2s;
-
+.nav-item a:hover {
+  box-shadow: 0px 5px 0px red;
+  transition: ease-in 0.2s;
 }
 
 /*card*/
 
-.card{
-transition: 0.2s ease-in;
+.card {
+  transition: 0.2s ease-in;
 }
 
-.card-img-top{
-max-height: 450px;
+.card-img-top {
+  max-height: 450px;
 }
 
 .card-title {
-font-family: 'Dancing Script', cursive;
-font-size: 30px;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
 
-.card-text:hover{
-background-color: rgba(224, 217, 217, 0.281);
+.card-text:hover {
+  background-color: rgba(224, 217, 217, 0.281);
 }
 
-.card:hover{
-
-box-shadow: 0px 0px 5px red;
+.card:hover {
+  box-shadow: 0px 0px 5px red;
 }
 
 /*centrage*/
 
-.centre{
-display: flex ;
-flex-direction: row ;
-align-items: center;
-
+.centre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
